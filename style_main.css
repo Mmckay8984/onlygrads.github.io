@@ -60,3 +60,18 @@ nav{
 h4{
     font-family: 'Mukta', sans-serif;
 }
+
+.color_teal{
+    color: #20C997;
+    
+}
+
+.input_bottom_bar_only {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #20C997;
+  }
+
+.input_bottom_bar_only:focus {
+   
+  }

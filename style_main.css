@@ -51,3 +51,12 @@ Put  styles here that can be used for generic things (enlarge text on hover, com
     color: black;
     font-weight: bold;
 }
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: #caffc7;
+}
+h4{
+    font-family: 'Mukta', sans-serif;
+}

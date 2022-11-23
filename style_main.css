@@ -46,3 +46,8 @@ Put  styles here that can be used for generic things (enlarge text on hover, com
     
     
 }
+
+.nav_text{
+    color: black;
+    font-weight: bold;
+}

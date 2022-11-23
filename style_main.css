@@ -61,6 +61,7 @@ h4{
     font-family: 'Mukta', sans-serif;
 }
 
+<<<<<<< HEAD
 /* Search Bar Styles */
 .height{
     height: 100vh;
@@ -109,3 +110,19 @@ h4{
     background: blue;
 
    }
+=======
+.color_teal{
+    color: #20C997;
+    
+}
+
+.input_bottom_bar_only {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #20C997;
+  }
+
+.input_bottom_bar_only:focus {
+   
+  }
+>>>>>>> b1fe1b9d67986b099789b5a3e0c683ce3aa9d356

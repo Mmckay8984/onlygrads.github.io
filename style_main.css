@@ -1,4 +1,48 @@
 /*
 Put  styles here that can be used for generic things (enlarge text on hover, common color standards, etc
 */
+@media (min-width:393px) {
+    #nav_mobile{
+        display: block;
+    }
+    #nav_desktop{
+        display: none;
+    }
+    
+} 
 
+@media (min-width:394px) {
+    #nav_mobile{
+        display: none;
+    }
+    #nav_desktop{
+        display:flex;
+    }
+    
+} 
+
+
+.nav li {
+
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: black;
+
+    
+
+
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+
+	transition: 0.7s all linear;
+
+}
+
+.nav_color{
+    background-color: #E3FAFC;
+    
+    
+}

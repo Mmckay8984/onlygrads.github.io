@@ -61,7 +61,7 @@ h4{
     font-family: 'Mukta', sans-serif;
 }
 
-<<<<<<< HEAD
+
 /* Search Bar Styles */
 .height{
     height: 100vh;
@@ -125,3 +125,21 @@ h4{
 .input_bottom_bar_only:focus {
    
   }
+
+.bold{
+    font-weight: bold;
+}
+
+.background_light_teal{
+    background-color: #C3FAE8;
+    
+}
+.background_dark_teal{
+    background-color: #96F2D7;
+}
+
+.round_borders{
+    border-radius: 25px;
+    border: 2px solid #12B886;
+}
+

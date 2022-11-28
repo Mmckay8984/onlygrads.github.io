@@ -93,6 +93,8 @@
       </div>
     </div>
   </nav>
+
+
   <section>
     <form class="formSignUp" >
       <div class="mb-3">
@@ -104,10 +106,45 @@
         <label for="Password" class="form-label">Password</label>
         <input type="password" class="form-control" id="Password">
       </div>
+
+      <div class="mb-3">
+        <label for="UserName" class="form-label">User Name</label>
+        <input type="text" class="form-control" id="UserName">
+      </div>
+      <div>
+        <p>Type of account</p>
+       <div class="form-check">
+         <input class="form-check-input marginL-2" type="radio" name="radios" id="radioIndividual">
+         <label class="form-check-label" for="radioIndividual">
+          Individual
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input marginL-2" type="radio" name="radios" id="radioOrganization" checked>
+         <label class="form-check-label" for="radioOrganization">
+         Organization
+         </label>
+       </div>
+      </div>
+
+      <select class="form-select form-select-lg mb-3" >
+        <option selected>Country</option>
+        <option value="">United States</option>
+        <option value="">Canada</option>
+        <option value="">United Kingdoms</option>
+        <option value="">France</option>
+      </select>
+
+
+
+
       <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="agreeCheck">
         <label class="form-check-label" for="agreeCheck">Agree term of service</label>
       </div>
+
+
+
       <button type="submit" class="btn btn-primary"  id="frmSignUpSubmit">Submit</button>
 
     </form>

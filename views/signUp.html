@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--Font Awesome Kit-->
+    <script
+      src="https://kit.fontawesome.com/ac65beec67.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--navbar hamburger menu styles/scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!--Custom styles--->
+    <link href="../style_main.css" rel="stylesheet" />
+    <link href="main.js" rel="javascript" />
+
+    <link rel="stylesheet" href="../styles/Signup.css">
+
+    <title>Sign up</title>
+
+  </head>
+  <body>
+
+  <!--desktop nav bar (need both desktop and mobile nav bar on a page)-->
+  <nav id="nav_desktop" class="fixed-top navbar  nav_ nav_color px-3">
+
+    <div class="row">
+      <div class="col-md-4">
+        <a href="" class="navbar-brand hover_enlarge " alt="logo image of green leaf" href="#">
+          <img src="../img/logo.png" width="75" alt=""></a><!-- image resource: https://www.clipartmax.com/middle/m2H7K9d3K9G6H7A0_herb-gardens-green-leaf-drawing-png/ -->
+      </div>
+      <div class="col-md-8 ">
+        <h3 class="nav_text">The Leaf</h3>
+        <h4 class="text-muted">Beleaf in better world</h4>
+      </div>
+    </div>
+
+    <ul class="nav ">
+      <li class="nav-item">
+        <a class="nav-link navigation nav_text " href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav_text nav-link  navigation " href="#">Signup</a>
+      </li>
+      <li class=" ">
+        <a class="nav_text " href="#">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav_text navigation nav_hover " href="#">About</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <!--mobile nav bar-->
+  <nav id="nav_mobile" class=" navbar-inverse nav_color " role="navigation">
+    <div class="container ">
+      <div class=" ">
+        <button type="" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only "></span>
+          <span class="icon-bar bg-dark"></span>
+          <span class="icon-bar bg-dark"></span>
+          <span class="icon-bar bg-dark"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">Signup</a></li>
+          <li><a href="#portfolio">News</a></li>
+          <li><a href="#">About</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <form class="formSignUp" >
+      <div class="mb-3">
+        <label for="Email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="Email" >
+
+      </div>
+      <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="agreeCheck">
+        <label class="form-check-label" for="agreeCheck">Agree term of service</label>
+      </div>
+      <button type="submit" class="btn btn-primary"  id="frmSignUpSubmit">Submit</button>
+
+    </form>
+
+  </section>
+<!--customn js-->
+  <script src="../js/SignUp.js"></script>
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

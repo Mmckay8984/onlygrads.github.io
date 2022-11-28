@@ -22,10 +22,7 @@ Put  styles here that can be used for generic things (enlarge text on hover, com
 } 
 
 
-.nav li {
 
-
-}
 
 .navbar-inverse .navbar-nav > li > a {
 	color: black;
@@ -143,3 +140,11 @@ h4{
     border: 2px solid #12B886;
 }
 
+footer{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #E3FAFC;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}

@@ -5,7 +5,45 @@ Put  styles here that can be used for generic things (enlarge text on hover, com
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --cyan-9: #0b7285;
+  --cyan-8: #0c8599;
+  --cyan-7: #1098ad;
+  --cyan-6: #15aabf;
+  --cyan-4: #3bc9db;
+  --cyan-3: #66d9e8;
+  --cyan-2: #99e9f2;
+  --cyan-1: #c5f6fa;
+  --cyan-0: #e3fafc;
+
+  --teal-9: #087f5b;
+  --teal-8: #099268;
+  --teal-7: #0ca678;
+  --teal-6: #12b886;
+  --teal-5: #20c997;
+  --teal-4: #38d9a9;
+  --teal-3: #63e6be;
+  --teal-2: #96f2d7;
+  --teal-1: #c3fae8;
+
+  --grey-9: #212529;
+  --grey-8: #343a40;
+  --grey-7: #495057;
+  --grey-6: #868e96;
+  --grey-5: #adb5bd;
+  --grey-4: #ced4da;
+  --grey-3: #dee2e6;
+  --grey-2: #e9ecef;
+  --grey-1: #f1f3f5;
+
+  --success: #2f9e44;
+  --warning: #e03131;
+  --info: #f59f00;
 }
 
 body {
@@ -19,7 +57,7 @@ h4 {
 /* Navbar */
 
 nav {
-  background-color: #caffc7;
+  background-color: var(--teal-2);
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -31,7 +69,7 @@ nav {
 }
 
 .nav_color {
-  background-color: #e3fafc;
+  background-color: var(--cyan-0);
 }
 
 .nav_text {
@@ -77,13 +115,13 @@ nav {
 }
 
 .color_teal {
-  color: #20c997;
+  color: var(--teal-5);
 }
 
 .input_bottom_bar_only {
   outline: 0;
   border-width: 0 0 2px;
-  border-color: #20c997;
+  border-color: var(--teal-5);
 }
 
 .input_bottom_bar_only:focus {
@@ -94,21 +132,21 @@ nav {
 }
 
 .background_light_teal {
-  background-color: #c3fae8;
+  background-color: var(--teal-1);
 }
 .background_dark_teal {
-  background-color: #96f2d7;
+  background-color: var(--teal-2);
 }
 
 .round_borders {
   border-radius: 25px;
-  border: 2px solid #12b886;
+  border: 2px solid var(--teal-6);
 }
 
 footer {
   margin-top: 10px;
   padding: 20px;
-  background-color: #e3fafc;
+  background-color: var(--cyan-0);
   font-size: larger;
   font-weight: bold;
   text-align: center;

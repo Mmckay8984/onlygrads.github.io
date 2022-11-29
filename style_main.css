@@ -1,150 +1,135 @@
 /*
 Put  styles here that can be used for generic things (enlarge text on hover, common color standards, etc
 */
-@media (min-width:393px) {
-    #nav_mobile{
-        display: block;
-    }
-    #nav_desktop{
-        display: none;
-    }
-    
-} 
 
-@media (min-width:394px) {
-    #nav_mobile{
-        display: none;
-    }
-    #nav_desktop{
-        display:flex;
-    }
-    
-} 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
+h4 {
+  font-family: 'Mukta', sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  background-color: #caffc7;
+}
 
 .navbar-inverse .navbar-nav > li > a {
-	color: black;
-
-    
-
-
+  color: black;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-
-	transition: 0.7s all linear;
-
+  transition: 0.7s all linear;
 }
 
-.nav_color{
-    background-color: #E3FAFC;
-    
-    
+.nav_color {
+  background-color: #e3fafc;
 }
 
-.nav_text{
-    color: black;
-    font-weight: bold;
+.nav_text {
+  color: black;
+  font-weight: bold;
 }
-*{
-    box-sizing: border-box;
-}
-nav{
-    background-color: #caffc7;
-}
-h4{
-    font-family: 'Mukta', sans-serif;
-}
-
 
 /* Search Bar styles */
-.height{
-    height: 100vh;
-   }
-   
 
-   .search{
-   position: relative;
-   box-shadow: 0 0 40px rgba(51, 51, 51, .1);
-     
-   }
+.height {
+  height: 100vh;
+}
 
-   .search input{
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
 
-    height: 60px;
-    text-indent: 25px;
-    border: 2px solid #d6d4d4;
+.search input {
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+}
 
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
 
-   }
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
 
+.search button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+}
 
-   .search input:focus{
-
-    box-shadow: none;
-    border: 2px solid blue;
-
-
-   }
-
-   .search .fa-search{
-
-    position: absolute;
-    top: 20px;
-    left: 16px;
-
-   }
-
-   .search button{
-
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 50px;
-    width: 110px;
-    background: blue;
-
-   }
-
-.color_teal{
-    color: #20C997;
-    
+.color_teal {
+  color: #20c997;
 }
 
 .input_bottom_bar_only {
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: #20C997;
-  }
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #20c997;
+}
 
 .input_bottom_bar_only:focus {
-   
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.background_light_teal {
+  background-color: #c3fae8;
+}
+.background_dark_teal {
+  background-color: #96f2d7;
+}
+
+.round_borders {
+  border-radius: 25px;
+  border: 2px solid #12b886;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #e3fafc;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media (min-width: 393px) {
+  #nav_mobile {
+    display: block;
   }
-
-.bold{
-    font-weight: bold;
+  #nav_desktop {
+    display: none;
+  }
 }
 
-.background_light_teal{
-    background-color: #C3FAE8;
-    
-}
-.background_dark_teal{
-    background-color: #96F2D7;
-}
-
-.round_borders{
-    border-radius: 25px;
-    border: 2px solid #12B886;
-}
-
-footer{
-    margin-top: 10px;
-    padding: 20px;
-    background-color: #E3FAFC;
-    font-size: larger;
-    font-weight: bold;
-    text-align: center;
+@media (min-width: 394px) {
+  #nav_mobile {
+    display: none;
+  }
+  #nav_desktop {
+    display: flex;
+  }
 }

@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/ac65beec67.js" crossorigin="anonymous"></script>
@@ -15,274 +20,260 @@
     <!--navbar hamburger menu styles/scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
 
-        <!--Custom styles--->
-        <link href="style_main.css" rel="stylesheet">
-        <link href="main.js" rel="javascript">
+    <!--Custom styles--->
+    <link href="style_main.css" rel="stylesheet" />
+    <link href="main.js" rel="javascript" />
 
     <title>Only Grads</title>
-</head>
-<body>
-
-  <!--desktop nav bar (need both desktop and mobile nav bar on a page)-->
-    <nav id="nav_desktop" class="fixed-top navbar  nav_ nav_color px-3">
-
+  </head>
+  <body>
+    <!--desktop nav bar (need both desktop and mobile nav bar on a page)-->
+    <nav id="nav_desktop" class="fixed-top navbar nav_ nav_color px-3">
       <div class="row">
         <div class="col-md-3">
-          <a href="" class="navbar-brand hover_enlarge " alt="logo image of green leaf" href="#">
-          <img src="img/icon_leaf.png" width="35" alt=""></a><!-- image resource: https://www.clipartmax.com/middle/m2H7K9d3K9G6H7A0_herb-gardens-green-leaf-drawing-png/ -->
+          <a href="" class="navbar-brand hover_enlarge" alt="logo image of green leaf" href="#">
+            <img src="img/icon_leaf.png" width="35" alt="" /></a
+          ><!-- image resource: https://www.clipartmax.com/middle/m2H7K9d3K9G6H7A0_herb-gardens-green-leaf-drawing-png/ -->
         </div>
-        <div class="col-md-8 ">
+        <div class="col-md-8">
           <h3 class="nav_text">The Leaf</h3>
           <h4 class="text-muted">Beleaf in better world</h4>
         </div>
       </div>
 
-        <ul class="nav ">
-          <li class="nav-item">
-            <a class="nav-link navigation nav_text " href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav_text nav-link  navigation " href="views/signUp.html">Signup</a>
-          </li>
-          <li class=" ">
-            <a class="nav_text " href="news.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav_text navigation nav_hover " href="about.html">About</a>
-          </li>
-
-        </ul>
-      </nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link navigation nav_text" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav_text nav-link navigation" href="views/signUp.html">Signup</a>
+        </li>
+        <li class=" ">
+          <a class="nav_text" href="news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_text navigation nav_hover" href="about.html">About</a>
+        </li>
+      </ul>
+    </nav>
 
     <!--mobile nav bar-->
-    <nav id="nav_mobile" class=" navbar-inverse nav_color " role="navigation">
-      <div class="container ">
+    <nav id="nav_mobile" class="navbar-inverse nav_color" role="navigation">
+      <div class="container">
         <div class=" ">
-          <button type="" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only "></span>
-                        <span class="icon-bar bg-dark"></span>
-                        <span class="icon-bar bg-dark"></span>
-                        <span class="icon-bar bg-dark"></span>
-                    </button>
+          <button
+            type=""
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only"></span>
+            <span class="icon-bar bg-dark"></span>
+            <span class="icon-bar bg-dark"></span>
+            <span class="icon-bar bg-dark"></span>
+          </button>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav ">
+          <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">Signup</a></li>
             <li><a href="#portfolio">News</a></li>
             <li><a href="#">About</a></li>
-
           </ul>
         </div>
       </div>
     </nav>
 
+    <section class="container">
+      <div class="justify-content-md-center mt-5">
+        <div class="row mt-5">
+          <div class="col-md-10 col-sm-12 w-75">
+            <!--search bar element-->
+            <span class="justify-content-md-center">
+              <input class="input_bottom_bar_only w-25" placeholder="Explore..." type="text" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search color_teal"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </span>
 
-      <section class="container">
-        <div  class=" justify-content-md-center mt-5 ">
-            <div class=" row  mt-5">
-              <div class="col-md-10 col-sm-12 w-75">
-
-                    <!--search bar element-->
-                    <span class="justify-content-md-center">
-                      <input class=" input_bottom_bar_only w-25 " placeholder="Explore..." type="text" />
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search color_teal" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg>
-                    </span>
-
-                <!--news article sections-->
-                <!--use w-### attribute to change how many news articles are in a row-->
-                <div class="d-flex justify-content-center mt-4 flex-wrap  w-100">
-
-                  <div class="row">
-                    <div class="col-md-6">
-                      <!--card elements-->
-                      <div class=" mt-lg-5  mx-3">
-                        <!--use anchor tag to link to news page-->
-                        <a href="">
-                          <div class="card  card_style" >
-                            <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf">
-                            <div class="card-body text-center">
-                              <p class="card-text">
-                              <!--card content-->
-                              <h4>JWT Launch! </h4>
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum ...
-                              </p>
-                              <button type="button" class="btn btn-info">Click</button>
-
-                              </p>
-                              </p>
-                            </div>
-                            <!--end of card text body-->
-                          </div>
-                          <!--end of card -->
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <!--card elements-->
-                      <div class=" mt-lg-5 mx-3">
-                        <!--use anchor tag to link to news page-->
-                        <a href="">
-                          <div class="card  card_style" >
-                            <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf">
-                            <div class="card-body text-center">
-                              <p class="card-text ">
-                               <!--card content-->
-                                <h4>JWT Launch! </h4>
-                                <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum ...
-                                </p>
-                                <button type="button" class="btn btn-info">Click</button>
-                              </p>
-                              </p>
-                            </div>
-                            <!--end of card text body-->
-                          </div>
-                          <!--end of card -->
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                       <!--card elements-->
-                       <div class=" mt-lg-5 mx-3">
-                        <!--use anchor tag to link to news page-->
-                        <a href="">
-                          <div class="card  card_style" >
-                            <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf">
-                            <div class="card-body text-center">
-                              <p class="card-text ">
-                                  <!--card content-->
-                                  <h4>JWT Launch! </h4>
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum ...
-                                  </p>
-                                  <button type="button" class="btn btn-info">Click</button>
-                              </p>
-                              </p>
-                            </div>
-                            <!--end of card text body-->
-                          </div>
-                          <!--end of card -->
-                        </a>
-                       </div>
-                    </div>
-                    <div class="col-md-6">
-                      <!--card elements-->
-                      <div class=" mt-lg-5 mx-3 ">
-                        <!--use anchor tag to link to news page-->
-                        <a href="">
-                          <div class="card   card_style" >
-                            <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf">
-                            <div class="card-body text-center">
-                              <p class="card-text ">
-                                  <h4>JWT Launch! </h4>
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum ...
-                                  </p>
-                                  <button type="button" class="btn btn-info">Click</button>
-                              </p>
-                              </p>
-                            </div>
-                            <!--end of card text body-->
-                          </div>
-                          <!--end of card -->
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-
-
-                      </div>
-                      <!--end of column (search bar and news articles)-->
-
-
-
-                </div>
-                  <!--end of col-->
-
-                  <!--column 2 (business leaderboard)-->
-                  <div class="col-md-auto justify-content-md-start  ">
-                    <!--card elements-->
-                    <div class="d-flex justify-content-center mt-4 flex-wrap  w-100">
-                      <!--use anchor tag to link to news page-->
-
-                        <div class="card round_borders  card_style " style="width: 27.7rem;">
-
-                          <!--m- p-0 ensures the backgorund colors are stretched to cover the width of the entire card-->
-                          <div class="card-body m-0 p-0 ">
-                              <p class="card-text d-flex justify-content-md-center ">
-
-                                <!--text-center ensures the business names are centered-->
-                                <table class="justify-content-md-center text-dark bold w-100 text-center">
-                                  <thead>
-                                    <tr>
-                                      <td class=" bold text-dark ">
-                                        Leaderboard
-                                      </td>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr class="background_light_teal w-100">
-                                      <td>Fishermans LTD</td>
-                                    </tr>
-                                    <tr class="background_dark_teal w-100">
-                                      <td>Fishermans LTD</td>
-                                    </tr>
-                                    <tr class="background_light_teal w-100">
-                                      <td>Fishermans LTD</td>
-                                    </tr>
-                                     <tr class="background_dark_teal w-100">
-                                      <td>Fishermans LTD</td>
-                                    </tr>
-                                    <tr class="background_light_teal w-100">
-                                      <td>Fishermans LTD</td>
-                                    </tr>
-                                    <tr class="background_dark_teal w-100">
-                                      <td>Fishermans LTD</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-
-                              </p>
+            <!--news article sections-->
+            <!--use w-### attribute to change how many news articles are in a row-->
+            <div class="d-flex justify-content-center mt-4 flex-wrap w-100">
+              <div class="row">
+                <div class="col-md-6">
+                  <!--card elements-->
+                  <div class="mt-lg-5 mx-3">
+                    <!--use anchor tag to link to news page-->
+                    <a href="">
+                      <div class="card card_style">
+                        <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf" />
+                        <div class="card-body text-center">
+                          <div class="card-text">
+                            <!--card content-->
+                            <h4>JWT Launch!</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                              interdum ...
                             </p>
+                            <button type="button" class="btn btn-info">Click</button>
                           </div>
-                          <!--end of card text body-->
                         </div>
-                        <!--end of card -->
-
-
-                    </div>
+                        <!--end of card text body-->
+                      </div>
+                      <!--end of card -->
+                    </a>
+                  </div>
                 </div>
-
-
-
-
-
+                <div class="col-md-6">
+                  <!--card elements-->
+                  <div class="mt-lg-5 mx-3">
+                    <!--use anchor tag to link to news page-->
+                    <a href="">
+                      <div class="card card_style">
+                        <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf" />
+                        <div class="card-body text-center">
+                          <div class="card-text">
+                            <!--card content-->
+                            <h4>JWT Launch!</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                              interdum ...
+                            </p>
+                            <button type="button" class="btn btn-info">Click</button>
+                          </div>
+                        </div>
+                        <!--end of card text body-->
+                      </div>
+                      <!--end of card -->
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!--card elements-->
+                  <div class="mt-lg-5 mx-3">
+                    <!--use anchor tag to link to news page-->
+                    <a href="">
+                      <div class="card card_style">
+                        <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf" />
+                        <div class="card-body text-center">
+                          <div class="card-text">
+                            <!--card content-->
+                            <h4>JWT Launch!</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                              interdum ...
+                            </p>
+                            <button type="button" class="btn btn-info">Click</button>
+                          </div>
+                        </div>
+                        <!--end of card text body-->
+                      </div>
+                      <!--end of card -->
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!--card elements-->
+                  <div class="mt-lg-5 mx-3">
+                    <!--use anchor tag to link to news page-->
+                    <a href="">
+                      <div class="card card_style">
+                        <img class="card-img-top" src="img/leaves.jpg" alt="big green leaf" />
+                        <div class="card-body text-center">
+                          <div class="card-text">
+                            <h4>JWT Launch!</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                              interdum ...
+                            </p>
+                            <button type="button" class="btn btn-info">Click</button>
+                          </div>
+                        </div>
+                        <!--end of card text body-->
+                      </div>
+                      <!--end of card -->
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of column (search bar and news articles)-->
           </div>
+          <!--end of col-->
 
+          <!--column 2 (business leaderboard)-->
+          <div class="col-md-auto justify-content-md-start">
+            <!--card elements-->
+            <div class="d-flex justify-content-center mt-4 flex-wrap w-100">
+              <!--use anchor tag to link to news page-->
 
+              <div class="card round_borders card_style" style="width: 27.7rem">
+                <!--m- p-0 ensures the backgorund colors are stretched to cover the width of the entire card-->
+                <div class="card-body m-0 p-0">
+                  <div class="card-text d-flex justify-content-md-center">
+                    <!--text-center ensures the business names are centered-->
+                    <table class="justify-content-md-center text-dark bold w-100 text-center">
+                      <thead>
+                        <tr>
+                          <td class="bold text-dark">Leaderboard</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="background_light_teal w-100">
+                          <td>Fishermans LTD</td>
+                        </tr>
+                        <tr class="background_dark_teal w-100">
+                          <td>Fishermans LTD</td>
+                        </tr>
+                        <tr class="background_light_teal w-100">
+                          <td>Fishermans LTD</td>
+                        </tr>
+                        <tr class="background_dark_teal w-100">
+                          <td>Fishermans LTD</td>
+                        </tr>
+                        <tr class="background_light_teal w-100">
+                          <td>Fishermans LTD</td>
+                        </tr>
+                        <tr class="background_dark_teal w-100">
+                          <td>Fishermans LTD</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!--end of card text body-->
+              </div>
+              <!--end of card -->
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-
-
-      </section>
-
-      <footer>
-        <p>&copy; Copyright; OnlyGrads Boiis 2022</p>
-      </footer>
+    <footer>
+      <p>&copy; Copyright; OnlyGrads Boiis 2022</p>
+    </footer>
 
     <!--Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -157,10 +157,10 @@ footer {
 }
 
 .home_news_article_buttons{
-  background-color: #E3FAFC;
+  background-color:  #21c8d7;
 }
 .home_news_article_buttons:hover{
-  background-color: #21c8d7;
+  background-color:#E3FAFC;
 }
 
 /* Responsive */

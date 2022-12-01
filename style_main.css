@@ -159,6 +159,9 @@ footer {
 .home_news_article_buttons{
   background-color: #E3FAFC;
 }
+.home_news_article_buttons:hover{
+  background-color: #21c8d7;
+}
 
 /* Responsive */
 

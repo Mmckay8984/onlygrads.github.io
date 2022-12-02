@@ -111,8 +111,9 @@
         <label for="UserName" class="form-label">User Name</label>
         <input type="text" class="form-control" id="UserName">
       </div>
-      <div>
-        <p>Type of account</p>
+      <label for="radioGroup" class="form-label">Type of Account</label>
+      <div id="radioGroup">
+
        <div class="form-check">
          <input class="form-check-input marginL-2" type="radio" name="radios" id="radioIndividual">
          <label class="form-check-label" for="radioIndividual">
@@ -128,7 +129,7 @@
       </div>
 
       <label for="Country" class="form-label">Country</label>
-      <select aria-label="Select" class="form-select form-select-lg mb-3" >
+      <select aria-label="Select" class="form-select form-select-lg mb-3" id="Country" >
         <option selected>Choose your country</option>
         <option value="">United States</option>
         <option value="">Canada</option>
@@ -146,7 +147,7 @@
 
 
 
-      <button type="submit" class="home_news_article_buttons bold btn"  id="frmSignUpSubmit">Submit</button>
+      <button type="submit" class="home_news_article_buttons bold btn "  id="frmSignUpSubmit">Submit</button>
 
     </form>
 

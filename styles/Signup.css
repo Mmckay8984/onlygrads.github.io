@@ -1,14 +1,67 @@
 .formSignUp {
     max-width: 50vw;
     margin: 0 auto;
-    margin-top: 20vh;
-    border: #12B886 1px solid ;
+    margin-top: 10vh;
+    border: #087F5B 4px solid ;
     padding: 4vw;
     border-radius: 10px;
     background-image: none;
+    font-family: 'Poppins', sans-serif;
 }
-
+.formSignUp input{
+    border: #0B7285 2px solid;
+    border-radius: 10px;
+    background-color:#E3FAFC ;
+}
 .marginL-2{
     margin-left:2vw;
 }
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: -3px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: -3px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #d1d3d1;
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+
+    top: -3px;
+    left: -3px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #d1d3d1;
+}
+#frmSignUpSubmit{
+    border: 1px black solid !important;
+
+}
+
+
 

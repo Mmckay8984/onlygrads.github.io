@@ -10,7 +10,7 @@ Put  styles here that can be used for generic things (enlarge text on hover, com
   box-sizing: border-box;
 }
 
-button{
+button {
   box-shadow: 3px 3px 2px grey;
 }
 
@@ -54,8 +54,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
 h4 {
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar */
@@ -66,6 +71,7 @@ nav {
 
 .navbar-inverse .navbar-nav > li > a {
   color: black;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
@@ -159,15 +165,15 @@ footer {
   text-align: center;
 }
 
-.home_news_article_buttons{
-  background-color:  #21c8d7;
+.home_news_article_buttons {
+  background-color: #21c8d7;
 }
-.home_news_article_buttons:hover{
-  background-color:#E3FAFC;
+.home_news_article_buttons:hover {
+  background-color: #e3fafc;
 }
 
-.hover_dark_green:hover{
-  color:#087f5b;
+.hover_dark_green:hover {
+  color: #087f5b;
   border-color: var(--teal-5);
 }
 
